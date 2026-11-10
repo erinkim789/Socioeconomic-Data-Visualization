@@ -12,13 +12,13 @@ The project includes multiple visualizations accessible through separate routes.
 
 | Route | Preview |
 |---|---|
-| `/startrellis.html` | (images/startrellis.png) |
-| `/barcomp.html` | (images/barcomp.png) |
-| `/parallel3.html` | (images/parallel3.png) |
-| `/parallel.html` | (images/parallel.png) |
-| `/paraset.html` | (images/paraset.png) |
-| `/scatmetric.html` | (images/scatmetric.png) |
-| `/scattrell.html` | (images/scattrell.png) |
+| `/startrellis.html` | ![Startrellis](images/startrellis.png) |
+| `/barcomp.html` | ![Bar Comparison](images/barcomp.png) |
+| `/parallel3.html` | ![Parallel 3](images/parallel3.png) |
+| `/parallel.html` | ![Parallel](images/parallel.png) |
+| `/paraset.html` | ![Parallel Set](images/paraset.png) |
+| `/scatmetric.html` | ![Scatter Metric](images/scatmetric.png) |
+| `/scattrell.html` | ![Scatter Trellis](images/scattrell.png) |
 
 ## Data Sources
 
