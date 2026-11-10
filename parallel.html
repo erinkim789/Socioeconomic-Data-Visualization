@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Parallel Coordinates Plot</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+
+<body>
+
+    <div class="container"> <!-- Centers content and sets max width -->
+        <h1>Parallel Coordinates of Metrics for 174 Countries</h1>
+
+        <p>For the sake of this example, we focus on the population, surface area (km²), GINI Index, Happy Planet Index (2016, 2019), Human Development Index (2017, 2021), and SEDA Score across 174 countries.</p>
+
+        <div id="vis"></div> <!--  Will hold our visualization (SVG) -->
+    </div>
+    
+    <!-- Load D3.js -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="js/parallelscript.js"></script>
+</body>
+</html>

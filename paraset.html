@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Parallel Coordinates Plot</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+
+<body>
+
+    <div class="container"> <!-- Centers content and sets max width -->
+        <h1>Parallel Sets of Metrics for the GDP Per Capita in USD (PPP)</h1>
+
+        <p>Countries are categorized by their continent and respective GDP per capita in USD (PPP) in a parallel sets visualization. This example focuses on GDP per capita during the years 2018 to 2021.</p>
+
+        <div id="vis"></div> <!--  Will hold our visualization (SVG) -->
+    </div>
+    
+    <!-- Load D3.js -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="js/paraset.js"></script>
+    <script src="https://unpkg.com/d3@7"></script>
+<script src="https://unpkg.com/d3-parsets@0.0.2/dist/d3-parsets.min.js"></script>
+</body>
+</html>
